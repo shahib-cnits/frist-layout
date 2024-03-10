@@ -32,6 +32,16 @@ li{
 }
 
 
+/*nav section*/
+@media screen and (max-width: 970px) {
+    .nav-button button{
+        margin-left: 0px !important;
+    }
+    
+}
+/*nav section */
+
+
 /* Hero start*/
 
 #hero-section{
