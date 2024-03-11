@@ -330,6 +330,7 @@ z-index: 2;
 .question svg{
     height: 30px;
     width: 30px;
+    flex-shrink: 0;
 }
 .faq{
     /* max-width: 700px; */

@@ -109,6 +109,9 @@ li{
 }
 .contact-address-card{
     width: 60%;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
 }
 .contact-address-card p button{
     font-weight: 600;
@@ -124,7 +127,8 @@ li{
     color: var(--secondary-color);
 }
 .view-map-btn{
-    padding-left: 100px;
+    text-align: center;
+    /* padding-left: 100px; */
 }
 .contact-cards{
     padding: 80px 0px;
@@ -451,6 +455,19 @@ li{
 .name-subject-masseges-input{
     width: 100%;
 }
+.name-subject-masseges-input input{
+    padding-left: 10px;
+}
+.select-input{
+    width: 100%;
+    padding: 10px 0px;
+    border: 2px solid var(--secondary-color);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding-left: 5px;
+    color: gray;
+    font-weight: 400;
+}
 .input-name{
     width: 100%;
     margin-bottom: 30px;
@@ -460,9 +477,9 @@ li{
     border: 2px solid var(--secondary-color);
     border-radius: 5px;
 }
-.input-name,.input-email,::placeholder{
+/* .input-name,.input-email,::placeholder{
     padding-left: 10px;
-}
+} */
 .form-select{
     width: 100%;
     margin-bottom: 30px;
