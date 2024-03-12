@@ -468,6 +468,12 @@ li{
     color: gray;
     font-weight: 400;
 }
+.input-phone{
+    padding-left: 10px;
+}
+.input-email{
+    padding-left: 10px;
+}
 .input-name{
     width: 100%;
     margin-bottom: 30px;
@@ -504,6 +510,7 @@ li{
     margin-bottom: 30px;
     color: gray;
     padding: 10px 0px;
+    padding-left: 10px;
     font-size: 15px;
     border: 2px solid var(--secondary-color);
     border-radius: 5px;
@@ -514,6 +521,7 @@ li{
     margin-bottom: 30px;
     color: gray;
     padding: 10px 0px;
+    padding-left: 10px;
     font-size: 15px;
     border: 2px solid var(--secondary-color);
     border-radius: 5px;
